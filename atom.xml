@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Qi's Blog]]></title>
   <link href="http://magzza.github.io/atom.xml" rel="self"/>
   <link href="http://magzza.github.io/"/>
-  <updated>2015-06-27T15:31:50+08:00</updated>
+  <updated>2015-06-27T15:36:14+08:00</updated>
   <id>http://magzza.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[magzza]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
