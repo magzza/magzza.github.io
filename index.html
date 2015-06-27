@@ -9,7 +9,10 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="最近无论是执行pod install还是pod update都卡在Analyzing dependencies不动了，很是头疼。 查找原因是以上两个命令执行时会升级CocoaPods的spec仓库。加参数可以忽略升级spec仓库。
+命令如下： 1
+2
+pod install --verbose &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +69,44 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/06/27/cocopodsshi-yong-xiao-ji/">Cocopods使用小记</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-06-27T15:26:45+08:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>3:26 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近无论是执行pod install还是pod update都卡在Analyzing dependencies不动了，很是头疼。</p>
+
+<p>查找原因是以上两个命令执行时会升级CocoaPods的spec仓库。加参数可以忽略升级spec仓库。
+命令如下：</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pod install --verbose --no-repo-update
+</span><span class='line'>pod update --verbose --no-repo-update</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -77,6 +118,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/06/27/cocopodsshi-yong-xiao-ji/">Cocopods使用小记</a>
+      </li>
     
   </ul>
 </section>

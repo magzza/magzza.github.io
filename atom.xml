@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://magzza.github.io/atom.xml" rel="self"/>
   <link href="http://magzza.github.io/"/>
-  <updated>2015-06-27T15:17:27+08:00</updated>
+  <updated>2015-06-27T15:31:50+08:00</updated>
   <id>http://magzza.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cocopods使用小记]]></title>
+    <link href="http://magzza.github.io/blog/2015/06/27/cocopodsshi-yong-xiao-ji/"/>
+    <updated>2015-06-27T15:26:45+08:00</updated>
+    <id>http://magzza.github.io/blog/2015/06/27/cocopodsshi-yong-xiao-ji</id>
+    <content type="html"><![CDATA[<p>最近无论是执行pod install还是pod update都卡在Analyzing dependencies不动了，很是头疼。</p>
+
+<p>查找原因是以上两个命令执行时会升级CocoaPods的spec仓库。加参数可以忽略升级spec仓库。
+命令如下：</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pod install --verbose --no-repo-update
+</span><span class='line'>pod update --verbose --no-repo-update</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
 </feed>
