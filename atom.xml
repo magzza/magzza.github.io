@@ -4,7 +4,7 @@
   <title><![CDATA[小轩轩DAD]]></title>
   <link href="http://magzza.github.io/atom.xml" rel="self"/>
   <link href="http://magzza.github.io/"/>
-  <updated>2015-06-27T16:07:06+08:00</updated>
+  <updated>2015-06-27T16:08:35+08:00</updated>
   <id>http://magzza.github.io/</id>
   <author>
     <name><![CDATA[magzza]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Cocopods使用小记]]></title>
-    <link href="http://magzza.github.io/blog/cocopodsshi-yong-xiao-ji.html/"/>
+    <link href="http://magzza.github.io/blog/cocopodsshi-yong-xiao-ji.html"/>
     <updated>2015-06-27T15:26:45+08:00</updated>
     <id>http://magzza.github.io/blog/cocopodsshi-yong-xiao-ji</id>
     <content type="html"><![CDATA[<p>最近无论是执行pod install还是pod update都卡在Analyzing dependencies不动了，很是头疼。</p>
