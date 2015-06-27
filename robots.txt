@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://magzza.github.io/sitemap.xml 
