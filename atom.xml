@@ -4,7 +4,7 @@
   <title><![CDATA[小轩轩DAD]]></title>
   <link href="http://magzza.github.io/atom.xml" rel="self"/>
   <link href="http://magzza.github.io/"/>
-  <updated>2015-06-27T16:03:23+08:00</updated>
+  <updated>2015-06-27T16:05:47+08:00</updated>
   <id>http://magzza.github.io/</id>
   <author>
     <name><![CDATA[magzza]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cocopods使用小记]]></title>
-    <link href="http://magzza.github.io/blog/2015/06/27/cocopodsshi-yong-xiao-ji/"/>
+    <link href="http://magzza.github.io/blog/cocopodsshi-yong-xiao-ji.html/"/>
     <updated>2015-06-27T15:26:45+08:00</updated>
-    <id>http://magzza.github.io/blog/2015/06/27/cocopodsshi-yong-xiao-ji</id>
+    <id>http://magzza.github.io/blog/cocopodsshi-yong-xiao-ji</id>
     <content type="html"><![CDATA[<p>最近无论是执行pod install还是pod update都卡在Analyzing dependencies不动了，很是头疼。</p>
 
 <p>查找原因是以上两个命令执行时会升级CocoaPods的spec仓库。加参数可以忽略升级spec仓库。
