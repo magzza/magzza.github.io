@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[小轩轩]]></title>
+  <title><![CDATA[小轩轩DAD]]></title>
   <link href="http://magzza.github.io/atom.xml" rel="self"/>
   <link href="http://magzza.github.io/"/>
-  <updated>2015-06-27T15:38:55+08:00</updated>
+  <updated>2015-06-27T16:02:27+08:00</updated>
   <id>http://magzza.github.io/</id>
   <author>
     <name><![CDATA[magzza]]></name>
-    
+    <email><![CDATA[magzza@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
