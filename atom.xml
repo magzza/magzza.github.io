@@ -4,7 +4,7 @@
   <title><![CDATA[小轩轩DAD]]></title>
   <link href="http://magzza.github.io/atom.xml" rel="self"/>
   <link href="http://magzza.github.io/"/>
-  <updated>2015-07-06T13:40:42+08:00</updated>
+  <updated>2015-07-06T13:42:17+08:00</updated>
   <id>http://magzza.github.io/</id>
   <author>
     <name><![CDATA[magzza]]></name>
@@ -43,7 +43,7 @@ Autolayout貌似可以参考的资料不多，还需要再找找。</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Cocopods使用小记]]></title>
+    <title type="html"><![CDATA[CocoaPods使用小记]]></title>
     <link href="http://magzza.github.io/blog/cocopodsshi-yong-xiao-ji.html"/>
     <updated>2015-06-27T15:26:45+08:00</updated>
     <id>http://magzza.github.io/blog/cocopodsshi-yong-xiao-ji</id>
