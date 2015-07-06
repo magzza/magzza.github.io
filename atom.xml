@@ -4,7 +4,7 @@
   <title><![CDATA[小轩轩DAD]]></title>
   <link href="http://magzza.github.io/atom.xml" rel="self"/>
   <link href="http://magzza.github.io/"/>
-  <updated>2015-07-02T16:18:09+08:00</updated>
+  <updated>2015-07-06T13:40:42+08:00</updated>
   <id>http://magzza.github.io/</id>
   <author>
     <name><![CDATA[magzza]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Auto layout中UIWebView可变高度处理]]></title>
+    <link href="http://magzza.github.io/blog/auto-layoutzhong-uiwebviewke-bian-gao-du-chu-li.html"/>
+    <updated>2015-07-06T13:30:54+08:00</updated>
+    <id>http://magzza.github.io/blog/auto-layoutzhong-uiwebviewke-bian-gao-du-chu-li</id>
+    <content type="html"><![CDATA[<p>Auto layout 在处理固定高度控件时，使用下来还没什么问题，就是不太熟练，但是再开发中碰到<code>UIWebView</code>加载html时碰到了问题，因为<code>UIWebView</code>布局时不知道需要多高。只有在<code>webViewDidFinishLoad</code>里面去修改高度，但是刚开始不知道怎么修改，直接修改frame貌似不起作用，大小还是Auto Layout固定的高度。</p>
+
+<p>后来在stackoverflow上发现可以把Constraint直接IBOutlet，然后变量在<code>webViewDidFinishLoad</code>里面修改constant。</p>
+
+<p>问题终于解决了。
+Autolayout貌似可以参考的资料不多，还需要再找找。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[开发中的一些小问题]]></title>
